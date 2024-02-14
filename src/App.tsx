@@ -1,13 +1,7 @@
-import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
+import HomePage from "./pages/HomePage";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <HeroSection />
-    </>
-  );
+  return <HomePage />;
 }
 
 export default App;

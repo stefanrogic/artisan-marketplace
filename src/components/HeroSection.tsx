@@ -1,13 +1,8 @@
 const HeroSection = () => {
   return (
-    <div className="h-screen">
-      <div className="container mx-auto py-6 px-4 xl:px-0 space-y-10 flex flex-col justify-center items-center">
-        <h1 className="text-black text-7xl font-bold text-center">Artisan Marketplace</h1>
-        <div className="flex flex-row space-x-5">
-          <button className=" bg-cyan-500 hover:bg-cyan-700 text-white px-5 py-2">Shop</button>
-          <button className=" bg-cyan-500 hover:bg-cyan-700 text-white px-5 py-2">Sell</button>
-        </div>
-      </div>
+    <div className="space-y-20 mt-14">
+      <div className="container mx-auto px-4 xl:px-0 space-y-10 flex flex-col justify-center items-center bg-gray-400 py-52"></div>
+      <div className="container mx-auto py-24 bg-gray-400"></div>
     </div>
   );
 };
